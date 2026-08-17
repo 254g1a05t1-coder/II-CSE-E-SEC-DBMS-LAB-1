@@ -1,4 +1,7 @@
-#create student table 
+```#create student table
+
+```sql
+ 
 CREATE TABLE Student (
     ID NUMBER,
     Name VARCHAR2(50),
@@ -6,4 +9,4 @@ CREATE TABLE Student (
     Department VARCHAR2(50)
 );
 #output screenshot
-![output 1 ](otp1.png)
+![output 1 ](./otp1.png)

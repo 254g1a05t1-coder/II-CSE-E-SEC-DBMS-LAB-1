@@ -8,5 +8,6 @@ CREATE TABLE Student (
     Course VARCHAR2(50),
     Department VARCHAR2(50)
 );
+
 #output screenshot
 ![output 1 ](./otp1.png)

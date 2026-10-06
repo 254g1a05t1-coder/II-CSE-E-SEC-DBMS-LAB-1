@@ -52,7 +52,8 @@ CREATE TABLE GRADE_REPORT (
 INSERT INTO STUDENT VALUES ('Smith', 17, 1, 'CS');
 INSERT INTO STUDENT VALUES ('Brown', 8, 2, 'CS');
 ```
-![Output](1.a5%20output.jpeg)
+![Output](1.a5%20output.jpeg)<img width="1600" height="851" alt="1 a5 output " src="https://github.com/user-attachments/assets/89f12866-5bec-4413-bdcf-4fcaac5847b6" />
+ 
 ## Insert values into COURSE table
 
 ```sql
@@ -107,7 +108,8 @@ DESC COURSE;
 ```sql
 DESC SECTION;
 ```
-![Output](1.a11%20output.jpeg)
+![Output](1.a11%20output.jpeg)<img width="1600" height="850" alt="1 a17 output" src="https://github.com/user-attachments/assets/5f0b0d0b-13c2-4de6-9527-a5b0e78454e1" />
+
 
 ## Describe GRADE_REPORT table
 

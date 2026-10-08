@@ -10,18 +10,18 @@ CREATE TABLE Sailors (
     rating NUMBER NOT NULL,
     age NUMBER(4,1) NOT NULL
 );
-<img width="1600" height="847" alt="output1" src="https://github.com/user-attachments/assets/d90cd47e-7815-4368-9edc-35f0dc764efd" />
-
 ```
+<img width="1600" height="847" alt="output1" src="https://github.com/user-attachments/assets/8b8952e4-5ecb-4325-a1ef-4d4609c94fa2" />
+
 ```
 CREATE TABLE Boats (
     bid NUMBER PRIMARY KEY,
     bname VARCHAR2(20) NOT NULL,
     color VARCHAR2(10) NOT NULL
 );
-<img width="1600" height="849" alt="output2" src="https://github.com/user-attachments/assets/3fdac363-93a9-4738-a407-353475e10e52" />
-
 ```
+<img width="1600" height="849" alt="output2" src="https://github.com/user-attachments/assets/af02daee-a658-47af-8116-249415063e44" />
+
 CREATE TABLE Reserves (
     sid NUMBER NOT NULL,
     bid NUMBER NOT NULL,
@@ -31,17 +31,17 @@ CREATE TABLE Reserves (
     FOREIGN KEY (bid) REFERENCES Boats(bid)
 );
 ```
-<img width="1600" height="847" alt="output3" src="https://github.com/user-attachments/assets/7f13f0a1-eb26-4ce6-a77d-b700a471ca03" />
-
 SELECT * FROM tab;
 ````
+<img width="1600" height="847" alt="output3" src="https://github.com/user-attachments/assets/18f0cf11-0c0a-46b5-9c3f-a5fbad18f309" />
 
 ##  insert into boats
 ```
 INSERT INTO Boats
 VALUES(22,'Dustin',7,45.0);
-<img width="1600" height="847" alt="insert1" src="https://github.com/user-attachments/assets/eb380a7d-d1c3-4d60-b36e-0211feffe7b2" />
 ```
+<img width="1600" height="847" alt="insert1" src="https://github.com/user-attachments/assets/73efa627-124f-4412-ad91-4d2cac7fd81f" />
+
 ## insert into sailors
 ```
 INSERT INTO Sailors VALUES (22, 'Dustin', 7, 45.0);
@@ -351,7 +351,6 @@ WHERE rating > ANY
 );
 ```
 
-<img width="1600" height="852" alt="q18" src="https://github.com/user-attachments/assets/75a6fef5-5c36-4cdd-adc3-b726b631ea0e" />
 <img width="1600" height="847" alt="q17" src="https://github.com/user-attachments/assets/940f1d41-348b-4e14-8309-b0819e78fa0e" />
 
 ---

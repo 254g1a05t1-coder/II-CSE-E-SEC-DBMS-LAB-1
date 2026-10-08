@@ -13,6 +13,7 @@ CREATE TABLE Sailors (
 <img width="1600" height="847" alt="output1" src="https://github.com/user-attachments/assets/d90cd47e-7815-4368-9edc-35f0dc764efd" />
 
 ```
+```
 CREATE TABLE Boats (
     bid NUMBER PRIMARY KEY,
     bname VARCHAR2(20) NOT NULL,
@@ -20,7 +21,7 @@ CREATE TABLE Boats (
 );
 <img width="1600" height="849" alt="output2" src="https://github.com/user-attachments/assets/3fdac363-93a9-4738-a407-353475e10e52" />
 
-````
+```
 CREATE TABLE Reserves (
     sid NUMBER NOT NULL,
     bid NUMBER NOT NULL,
@@ -30,18 +31,19 @@ CREATE TABLE Reserves (
     FOREIGN KEY (bid) REFERENCES Boats(bid)
 );
 ```
-<img width="1600" height="847" alt="output3" src="https://github.com/user-attachments/assets/dd7f51a5-9c08-4ab5-9a78-c303fda05c79" />
+<img width="1600" height="847" alt="output3" src="https://github.com/user-attachments/assets/7f13f0a1-eb26-4ce6-a77d-b700a471ca03" />
 
-```
 SELECT * FROM tab;
 ````
 
 ##  insert into boats
+```
 INSERT INTO Boats
 VALUES(22,'Dustin',7,45.0);
 <img width="1600" height="847" alt="insert1" src="https://github.com/user-attachments/assets/eb380a7d-d1c3-4d60-b36e-0211feffe7b2" />
-``
+```
 ## insert into sailors
+```
 INSERT INTO Sailors VALUES (22, 'Dustin', 7, 45.0);
 INSERT INTO Sailors VALUES (29, 'Brutus', 1, 33.0);
 INSERT INTO Sailors VALUES (31, 'Lubber', 8, 55.5);
@@ -52,9 +54,11 @@ INSERT INTO Sailors VALUES (71, 'Zorba', 10, 16.0);
 INSERT INTO Sailors VALUES (74, 'Horatio', 9, 35.0);
 INSERT INTO Sailors VALUES (85, 'Art', 3, 25.5);
 INSERT INTO Sailors VALUES (95, 'Bob', 3, 63.5);
+```
 <img width="1600" height="847" alt="insert1" src="https://github.com/user-attachments/assets/c9b3caeb-ce91-4f7c-a3af-7dc344013dec" />
 
 ## insert into reserves 
+```
 INSERT INTO Reserves VALUES (22, 101, TO_DATE('10/10/98','MM/DD/RR'));
 INSERT INTO Reserves VALUES (22, 102, TO_DATE('10/10/98','MM/DD/RR'));
 INSERT INTO Reserves VALUES (22, 103, TO_DATE('10/8/98','MM/DD/RR'));
@@ -66,29 +70,36 @@ INSERT INTO Reserves VALUES (31, 104, TO_DATE('11/12/98','MM/DD/RR'));
 INSERT INTO Reserves VALUES (64, 101, TO_DATE('9/5/98','MM/DD/RR'));
 INSERT INTO Reserves VALUES (64, 102, TO_DATE('9/8/98','MM/DD/RR'));
 INSERT INTO Reserves VALUES (74, 103, TO_DATE('9/8/98','MM/DD/RR'));
-<img width="1600" height="847" alt="insert2" src="https://github.com/user-attachments/assets/02b9cfbf-f461-4f8c-8cc8-a3c2cdaf1d0e" />
+```
+<img width="1600" height="847" alt="insert2" src="https://github.com/user-attachments/assets/fe27930c-7bf3-4c80-b1b1-7f39552df31d" />
+
 
 ## insert into boats
+```
 INSERT INTO Boats VALUES (101, 'Interlake', 'blue');
 INSERT INTO Boats VALUES (102, 'Interlake', 'red');
 INSERT INTO Boats VALUES (103, 'Clipper', 'green');
 INSERT INTO Boats VALUES (104, 'Marine', 'red');
+```
 <img width="1600" height="851" alt="insert3" src="https://github.com/user-attachments/assets/3368dc9c-165e-4f3a-b579-791df0fe55b8" />
 
 ## desc tables
+```
 DESC sailors;
 DESC reserves;
 DESC boats;
+```
 <img width="1600" height="848" alt="desc_reserves" src="https://github.com/user-attachments/assets/dab62869-f2d2-4a26-be0f-329e69907002" />
 
 <img width="1600" height="847" alt="desc_boats" src="https://github.com/user-attachments/assets/5183d07e-cd26-42b2-ba16-f78e6f55d24d" />
 <img width="1600" height="847" alt="desc_sailors" src="https://github.com/user-attachments/assets/6cc9e82e-ed40-41a0-a7c3-6550fac2a8ab" />
 
-## display 
+## display
+```
 SELECT * FROM Sailors;
 SELECT * FROM Reserves;
 SELECT * FROM Boats;
-``
+```
 # DBMS LAB - EXPERIMENT 2
 
 ## Query 1

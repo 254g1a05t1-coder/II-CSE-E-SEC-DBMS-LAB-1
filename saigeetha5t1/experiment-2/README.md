@@ -30,11 +30,12 @@ CREATE TABLE Reserves (
     FOREIGN KEY (bid) REFERENCES Boats(bid)
 );
 ```
-<img width="1600" height="847" alt="output3" src="https://github.com/user-attachments/assets/eb27093d-36ff-44da-9c2a-e0144dadd728" />
+<img width="1600" height="847" alt="output3" src="https://github.com/user-attachments/assets/dd7f51a5-9c08-4ab5-9a78-c303fda05c79" />
 
 ```
 SELECT * FROM tab;
 ````
+
 ##  insert into boats
 INSERT INTO Boats
 VALUES(22,'Dustin',7,45.0);
@@ -373,8 +374,7 @@ WHERE rating =
 );
 ```
 
-<img width="1600" height="852" alt="q18" src="https://github.com/user-attachments/assets/9b2705e0-75ab-4b61-a652-197c3126686f" />
-<img width="1600" height="847" alt="q17" src="https://github.com/user-attachments/assets/c1b2b545-7fc0-4d59-ae18-bb1504dcda31" />
+
 <img width="1600" height="847" alt="q19" src="https://github.com/user-attachments/assets/ac485a4f-1ba6-4b2a-bede-3ecabb32c327" />
 
 

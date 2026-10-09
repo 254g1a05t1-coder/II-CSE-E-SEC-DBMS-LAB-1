@@ -21,7 +21,7 @@ CREATE TABLE Boats (
 );
 ```
 <img width="1600" height="849" alt="output2" src="https://github.com/user-attachments/assets/af02daee-a658-47af-8116-249415063e44" />
-
+```
 CREATE TABLE Reserves (
     sid NUMBER NOT NULL,
     bid NUMBER NOT NULL,

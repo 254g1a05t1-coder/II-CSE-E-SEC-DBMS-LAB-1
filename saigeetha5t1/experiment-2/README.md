@@ -30,6 +30,7 @@ CREATE TABLE Reserves (
     FOREIGN KEY (sid) REFERENCES Sailors(sid),
     FOREIGN KEY (bid) REFERENCES Boats(bid)
 );
+
 ```
 SELECT * FROM tab;
 ````
